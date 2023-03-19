@@ -1,4 +1,5 @@
 
+import 'package:e_commerce_app/Views/Screen/category_screen.dart';
 import 'package:e_commerce_app/Views/Screen/customer_home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -13,7 +14,7 @@ class _HomePageState extends State<HomePage> {
 
   List<Widget> _tabs = [
     CustomerHomeScreen(),
-    Center(child: Text('Category Page'),),
+    CategoryScreen(),
     Center(child: Text('Shopping Page'),),
     Center(child: Text('Cart Page'),),
     Center(child: Text('Profile Page'),),
