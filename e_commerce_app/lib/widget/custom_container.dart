@@ -47,7 +47,8 @@ class CustomContainer extends StatelessWidget {
                   style: TextStyle(fontSize: 14.sp, color: Colors.black54),
                 ),
               ),
-            )
+            ),
+            Divider(),
           ],
         ),
       ),
